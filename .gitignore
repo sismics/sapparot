@@ -1,0 +1,13 @@
+*.ids
+*.iml
+*.pyc
+*.ipr
+*.iws
+.gradle/
+.idea
+test-result/
+lib/
+logs/
+target/
+tmp/
+dist/

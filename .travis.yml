@@ -1,6 +1,7 @@
 sudo: required
 dist: trusty
 language: java
-  - if [ "$TRAVIS_BRANCH" == "release" ]; then
+  - gradle build
+    if [ "$TRAVIS_BRANCH" == "release" ]; then
     gradle publish
     fi

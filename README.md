@@ -1,9 +1,5 @@
 # Sapparot
 
-This plugin provides a way to track and organize your database schema evolutions in Play! Framework 1 applications.
-
-# Features
-
 Sapparot is a set of core libraries for Java.
 
 # License

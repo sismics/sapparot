@@ -16,6 +16,7 @@ dependencies {
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
+    archiveClassifier = 'sources'
 }
 
 publishing {
@@ -36,9 +37,7 @@ publishing {
 
             from components.java
 
-            artifact sourceJar {
-                classifier "sources"
-            }
+            artifact sourceJar
         }
     }
 }

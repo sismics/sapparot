@@ -1,4 +1,8 @@
 ## Change Log
+### Version 1.3.0 (2019-03-27)
+- Add Zip utils
+- Add XML utils
+- Upgrade OkHttp
 ### Version 1.2.0 (2019-02-28)
 - Add reflection utils
 ### Version 1.1.0 (2018-09-23)

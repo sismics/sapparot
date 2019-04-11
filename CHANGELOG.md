@@ -1,4 +1,6 @@
 ## Change Log
+### Version 1.3.1 (2019-04-11)
+- Upgrade dependencies
 ### Version 1.3.0 (2019-03-27)
 - Add Zip utils
 - Add XML utils

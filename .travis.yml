@@ -1,7 +1,7 @@
 sudo: required
-dist: trusty
+dist: xenial
 jdk:
-  - oraclejdk11
+  - openjdk11
 language: java
   - gradle build
     if [ "$TRAVIS_BRANCH" == "release" ]; then

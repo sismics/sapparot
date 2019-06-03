@@ -3,8 +3,7 @@ dist: xenial
 jdk:
   - openjdk11
 language: java
-  - gradle wrapper --gradle-version 5.1.1
-    gradle build
+  - gradle build
     if [ "$TRAVIS_BRANCH" == "release" ]; then
     gradle publish
     fi

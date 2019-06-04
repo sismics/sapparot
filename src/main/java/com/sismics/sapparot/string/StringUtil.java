@@ -17,7 +17,7 @@ public class StringUtil {
      * @param is The input stream
      * @return The string
      */
-    public String toString(InputStream is) {
+    public static String toString(InputStream is) {
         try {
             return CharStreams.toString(new InputStreamReader(is, Charsets.UTF_8));
         } catch (IOException e) {
